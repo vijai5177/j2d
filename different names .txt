@@ -1,0 +1,9 @@
+echo "enter the file name:"
+mkdir names
+vi sagar prasanth tulasi chiru madhu viji
+esac:wq
+read names
+for i in $(cat $names)
+do
+echo "hi$i"
+done
